@@ -81,3 +81,12 @@ myfunction();
 // myfunction = 'Hello'; // TypeError: Assignment to constant variable.
 // console.log(myfunction);
 // console.log(typeof myfunction);
+
+
+
+// ------------<<<<<<<-----------typeof operator---------------->>>>>>
+// The typeof operator returns a string indicating the type of the unevaluated operand.
+
+
+
+
