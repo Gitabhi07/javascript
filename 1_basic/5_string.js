@@ -5,6 +5,7 @@
 const string = 'Hello, World!';
 const repoCount = 50;
 
+// `` is called template literals or string interpolation
 console.log(`Hello my name is ${string} and my repo Count is ${repoCount}`); // Hello my name is Hello, World! and my repo Count is 50
 
 
@@ -14,6 +15,7 @@ console.log(gameName);
 console.log(gameName.localeCompare('full stack')); // 0
 console.log(gameName.localeCompare('fullstack')); // -1
 console.log(gameName.localeCompare('full stack game')); // -1
+console.log(gameName.localeCompare('full')); // 1
 // console.log(gameName.small());
 
 

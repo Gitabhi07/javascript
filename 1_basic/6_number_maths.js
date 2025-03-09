@@ -2,19 +2,19 @@
 const score = 400.675
 
 const balance = new Number(100)
-// console.log(balance);
+console.log(balance);
 
 
-// console.log(balance.valueOf());
-// console.log(balance.toString());
-// console.log(balance.toFixed(2));
-// console.log(balance.toPrecision(2));
-// console.log(balance.toExponential(2));
-// console.log(score.toPrecision(5));
-// console.log(score.toExponential(2));
-// console.log(score.toString());
-// console.log(score.toFixed(2));
-// console.log(score.valueOf());
+console.log(balance.valueOf());
+console.log(balance.toString());
+console.log(balance.toFixed(2));
+console.log(balance.toPrecision(2));
+console.log(balance.toExponential(2));
+console.log(score.toPrecision(5));
+console.log(score.toExponential(2));
+console.log(score.toString());
+console.log(score.toFixed(2));
+console.log(score.valueOf());
 
 // ------------------ Maths library ------------------>
 
