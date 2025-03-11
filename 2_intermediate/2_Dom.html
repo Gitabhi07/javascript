@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body style="background-color: #212121; color: white">
+    <div class="parent">
+      <div class="day">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+      <div class="day">Friday</div>
+      <div class="day">Saturday</div>
+      <div class="day">Sunday</div>
+    </div>
+    <script>
+      const parent = document.querySelector(".parent");
+      console.log(parent);
+      //   console.log(parent.children);
+      //   console.log(parent.children[0].innerHTML);
+      //   console.log(parent.children[0].textContent);
+      //   console.log(parent.children[0].innerText);
+
+      //   for (let i = 0; i < parent.children.length; i++) {
+      //     console.log(parent.children[i].innerHTML);
+      //   }
+
+      //   parent.children[0].innerHTML = "Funday";
+      //   parent.children[0].style.color = "red";
+
+      //   console.log(parent.children[0].classList);
+      //   parent.children[0].classList.add("day");
+      console.log(parent.firstElementChild);
+      console.log(parent.lastElementChild);
+
+      const dayOne = document.querySelector(".day");
+      console.log(dayOne);
+
+      //   dayOne.forEach((h3) => {
+      //     h3.style.color = "black";
+      //     h3.style.backgroundColor = "green";
+      //     h3.style.padding = "10px";
+      //   });
+
+      //   dayOne.forEach((h3) => {
+      //     h3.classList.add("day");
+      //   });
+      console.log(dayOne.parentNode);
+      console.log(dayOne.parentElement);
+      console.log(dayOne.childNodes);
+      console.log("nodes: ", parent.childNodes);
+
+      //   console.log(dayOne[0].nextElementSibling);
+      //   console.log(dayOne[3].previousElementSibling);
+    </script>
+  </body>
+</html>
