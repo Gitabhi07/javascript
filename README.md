@@ -43,4 +43,20 @@ h3.style.padding = '10px';
 h3.innerText = 'Abhi'
 })
 
+<h3>Hoew to create Dom element: </h3>
+steps::
+
+const div = document.createElement("h1");
+console.log(div);
+div.className = "main";
+div.id = Math.round(Math.random() \* 10 + 1);
+div.setAttribute("title", "This is a title");
+div.style.backgroundColor = "green";
+div.style.color = "white";
+div.style.padding = "10px";
+div.style.borderRadius = "5px";
+const addtext = document.createTextNode("Hello World");
+div.appendChild(addtext);
+document.body.appendChild(div);
+
 </p>
