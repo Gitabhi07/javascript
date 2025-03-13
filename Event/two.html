@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>settimeout and setinterval</title>
+  </head>
+  <body>
+    <h1>abhi aur code</h1>
+    <button id="stop">stop</button>
+  </body>
+  <script>
+    const key = () => {
+      console.log("hello");
+    };
+    setTimeout(key, 2000);
+    // setTimeout(() => {
+    //   console.log("hello");
+    // }, 2000);
+
+    const changekey = () => {
+      //   console.log("hello");
+      document.querySelector("h1").innerHTML = "best js series";
+    };
+    const changeme = setTimeout(changekey, 2000);
+
+    document.querySelector("#stop");
+    addEventListener("click", () => {
+      clearTimeout(changeme);
+      console.log("stop");
+    });
+
+    // setInterval
+    // setInterval(key, 2000);
+  </script>
+</html>
